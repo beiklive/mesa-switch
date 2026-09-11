@@ -1,0 +1,7 @@
+# Docker.rust / Docker.switch-nvk do not COPY anything from the build context,
+# so keep it as small as possible: without this file the ~1 GB worktree (and
+# its .git) would be shipped to the Docker daemon on every `docker build`.
+# Re-include the Dockerfiles because BuildKit needs to read them from context.
+*
+!Docker.rust
+!Docker.switch-nvk
