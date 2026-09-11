@@ -9,6 +9,8 @@ Based on Mesa 26.2.1.
 
 This repository lives at https://github.com/danfromtico/mesa-switch.
 
+`中文版说明 <README.zh-CN.rst>`_
+
 
 What you get
 ------------
